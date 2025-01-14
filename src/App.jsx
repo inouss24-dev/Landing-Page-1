@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
+import Features from "./components/Features"
 
 
 
@@ -11,6 +12,9 @@ function App() {
         <Navbar />
       </div>
       <Hero />
+      <div className="md:p-4 p-4"> 
+        <Features />
+      </div>
     </>
   )
 }

@@ -1,13 +1,16 @@
 import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+
 
 
 function App() {
 
   return (
     <>
-      <div>
+      <div className="md:p-4 p-4"> 
         <Navbar />
       </div>
+      <Hero />
     </>
   )
 }

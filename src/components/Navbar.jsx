@@ -9,6 +9,10 @@ function Navbar() {
     setMenuIsOpen((prev) => !prev);
   };
 
+  const closeMenu = () => {
+    setMenuIsOpen(false);
+  };
+
   return (
     <>
       <div className="flex justify-between items-center bg-[#ffff]">
@@ -20,19 +24,31 @@ function Navbar() {
         <div className="flex items-center">
           {/* Menu desktop */}
           <div className="hidden md:block space-x-4">
-            <a href="#" className="text-[#28a7e9] font-bold">
+            <a href="#HOME" className="text-[#28a7e9] font-bold">
               HOME
             </a>
-            <a href="#" className="hover:text-[#28a7e9] text-[gray] font-bold">
+            <a
+              href="#FEATURES"
+              className="hover:text-[#28a7e9] text-[gray] font-bold"
+            >
               FEATURES
             </a>
-            <a href="#" className="hover:text-[#28a7e9] text-[gray] font-bold">
+            <a
+              href="#PRICING"
+              className="hover:text-[#28a7e9] text-[gray] font-bold"
+            >
               PRICING
             </a>
-            <a href="#" className="hover:text-[#28a7e9] text-[gray] font-bold">
+            <a
+              href="#DOWNLOAD"
+              className="hover:text-[#28a7e9] text-[gray] font-bold"
+            >
               DOWNLOAD
             </a>
-            <a href="#" className="hover:text-[#28a7e9] text-[gray] font-bold">
+            <a
+              href="#CONTACT"
+              className="hover:text-[#28a7e9] text-[gray] font-bold"
+            >
               CONTACT
             </a>
           </div>
@@ -52,30 +68,38 @@ function Navbar() {
           menuIsOpen ? "translate-y-0" : "-translate-y-full"
         }`}
       >
-        <a href="#" className="text-[#28a7e9] font-bold text-lg">
+        <a
+          href="#HOME"
+          className="text-[#28a7e9] font-bold text-lg"
+          onClick={closeMenu}
+        >
           HOME
         </a>
         <a
-          href="#"
+          href="#FEATURES"
           className="hover:text-[#28a7e9] text-[#ffff] font-bold text-lg"
+          onClick={closeMenu}
         >
           FEATURES
         </a>
         <a
-          href="#"
+          href="#PRICING"
           className="hover:text-[#28a7e9] text-[#ffff] font-bold text-lg"
+          onClick={closeMenu}
         >
           PRICING
         </a>
         <a
-          href="#"
+          href="#DOWNLOAD"
           className="hover:text-[#28a7e9] text-[#ffff] font-bold text-lg"
+          onClick={closeMenu}
         >
           DOWNLOAD
         </a>
         <a
-          href="#"
+          href="#CONTACT"
           className="hover:text-[#28a7e9] text-[#ffff] font-bold text-lg"
+          onClick={closeMenu}
         >
           CONTACT
         </a>

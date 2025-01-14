@@ -37,7 +37,7 @@ const PRICING = [
 function Pricing() {
   return (
     <>
-      <div className="bg-[#f8f8f8] py-7">
+      <div className="bg-[#f8f8f8] py-7" id="PRICING">
         {/* Titre */}
         <h1 className="text-center text-4xl font-bold mb-8">OUR PRICING</h1>
         

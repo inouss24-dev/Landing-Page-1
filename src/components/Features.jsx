@@ -6,7 +6,7 @@ import meeting from "../assets/meeting.jpg";
 function Features() {
   return (
     <>
-      <div className="bg-[#fff] flex flex-col items-center p-4 gap-y-8 md:flex-row rounded-sm">
+      <div id="FEATURES" className="bg-[#fff] flex flex-col items-center p-4 gap-y-8 md:flex-row rounded-sm">
         <div className="md:w-1/2 md:flex md:flex-col md:items-start gap-y-6">
           <div>
             <h1 className="text-4xl text-black font-bold text-center md:text-left">

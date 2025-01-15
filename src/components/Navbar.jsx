@@ -18,7 +18,7 @@ function Navbar() {
       <div className="flex justify-between items-center bg-[#ffff]">
         <div>
           <h1 className="text-3xl text-[#28a7e9] font-bold hover:text-[gray]">
-            Lorem
+            <a href="">Lorem</a>
           </h1>
         </div>
         <div className="flex items-center">

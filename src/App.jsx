@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import Features from "./components/Features"
 import Pricing from "./components/Pricing"
 import Download from "./components/Downlaod"
+import Contact from "./components/Contact"
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <Pricing />
         <Download />
       </div>
+      <Contact />
       
     </>
   )

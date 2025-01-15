@@ -20,17 +20,17 @@ function Features() {
             </p>
           </div>
 
-          <div className="flex items-center space-x-4 md:space-x-7">
+          <div className="flex items-center space-x-4 space-y-4 md:space-x-7">
             <span className="bg-[#28a7e9] rounded-full p-4">
               <MdOutlineSmartphone className="text-[#ffff] text-2xl " />
             </span>
-            <p className="text-center md:text-left text-black">
+            <p className="text-center md:text-left text-black text-lg">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna
             </p>
           </div>
 
-          <div className="flex items-center space-x-4 md:space-x-7">
+          <div className="flex items-center space-x-4 space-y-4 md:space-x-7">
             <span className="bg-[#28a7e9] rounded-full p-4">
               <FaCode className="text-[#ffff] text-2xl" />
             </span>

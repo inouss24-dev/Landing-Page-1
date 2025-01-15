@@ -4,7 +4,7 @@ import { SiGmail } from "react-icons/si";
 
 function Contact() {
   return (
-    <div className="bg-[#28a7e9] text-white py-10 px-4 md:px-20">
+    <div  id="CONTACT" className="bg-[#28a7e9] text-white py-10 px-4 md:px-20">
       <div className="flex justify-between flex-col md:flex-row gap-10">
         {/* Section gauche : Informations de contact */}
         <div className="flex flex-col gap-y-6">

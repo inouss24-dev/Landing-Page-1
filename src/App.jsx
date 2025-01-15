@@ -4,6 +4,7 @@ import Features from "./components/Features"
 import Pricing from "./components/Pricing"
 import Download from "./components/Downlaod"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Download />
       </div>
       <Contact />
+      <Footer />
       
     </>
   )
